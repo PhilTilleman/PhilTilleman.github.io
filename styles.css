@@ -101,6 +101,7 @@ html {
 }
 
 .project-tile {
+    text-decoration: none;
     background-color: #ffffff;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -132,6 +133,7 @@ html {
 }
 
 .featured-project-tile {
+    text-decoration: none;
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
