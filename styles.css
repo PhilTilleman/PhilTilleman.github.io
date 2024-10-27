@@ -39,7 +39,7 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
-    transition: transform 0.3s ease-in;
+    transition: transform 0.3s ease;
 }
 
 nav ul li a:hover {
