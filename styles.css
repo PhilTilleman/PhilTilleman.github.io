@@ -52,7 +52,8 @@ nav ul li a:hover {
 
 .bodytext {
     padding: 40px;
-    left: 200px;
+    left: 1000px;
+    right: 1000px;
 }
 
 footer {
