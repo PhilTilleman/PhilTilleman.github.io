@@ -101,6 +101,7 @@ html {
 }
 
 .project-tile {
+    color: inherit;
     text-decoration: none;
     background-color: #ffffff;
     border-radius: 15px;
@@ -133,6 +134,7 @@ html {
 }
 
 .featured-project-tile {
+    color: inherit; 
     text-decoration: none;
     background-color: #ffffff;
     border-radius: 20px;
