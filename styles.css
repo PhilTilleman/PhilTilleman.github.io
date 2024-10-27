@@ -26,6 +26,11 @@ header {
     font-weight: bold;
 }
 
+.title a {
+    color: inherit;
+    text-decoration: none;
+}
+
 nav ul {
     list-style: none;
     display: flex;
@@ -49,6 +54,7 @@ nav ul li a:hover {
     padding: 40px;
     text-align: center;
 }
+
 
 .bodytext {
     padding: 40px;
@@ -163,4 +169,28 @@ html {
 .featured-project-tile p {
     font-size: 18px;
     color: #555;
+}
+
+/* Windows Server Project */
+
+.picture-properties {
+    float: left;
+    max-width: 50%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    margin-top: 15px;
+    margin-left: 15px;
+    clear: both;
+}
+
+.paragraph {
+    float: right;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    margin-left: 1000px;
+    margin-top: 15px;
+    margin-right: 15px;
+    padding: 15px;
+    background-color: #ffffff;
 }
