@@ -39,6 +39,7 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
+    background-color: #ffffff;
     transition: background-color 0.3s ease-in, transform 0.3s ease-in;
 }
 
