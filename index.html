@@ -1,44 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phillip's IT Projects - Home</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" type="image/x-icon" href="icon.jpg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phillip's IT Projects - Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" type="image/x-icon" href="icon.jpg">
 </head>
 <body>
-    <header>
-        <div class="title"><a href="index.html">Phillip's IT Projects</a></div>
-	    <div>
-		<img src="icon.png" alt="Logo" class="picture-properties">
-	    </div>
-        <nav>
-            <ul>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <div class="title"><a href="index.html">Phillip's IT Projects</a></div>
+    <nav>
+      <ul>
+        <li class="dropdown"> <a href="#" class="dropdown-btn">Projects</a>
+          <ul class="dropdown-content">
+            <li><a href="windowsserver.html">Windows Server 2019 on VirtualBox</a></li>
+            <li><a href="project2.html">Project 2</a></li>
+            <li><a href="project3.html">Project 3</a></li>
+          </ul>
+        </li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section class="content">
-        <h1>Welcome to Phillip's IT Projects</h1>
-        <p>This website is to document my personal IT projects.</p>
-        
-        <!-- Highlighting Project 1 as the most recent project -->
-        <div class="featured-project">
-            <a href="windowsserver.html" class="featured-project-tile">
-                <h2>Windows Server 2019 on VirtualBox</h2>
-                <p>View This Project Here</p>
-            </a>
-        </div>
-    </section>
+  <section class="content">
+    <h1>Welcome to Phillip's IT Projects</h1>
+    <p>This website is to document my personal IT projects.</p>
 
-    <footer>
-        <p>Connect with me on <a href="https://www.linkedin.com/in/phillip-tilleman-855097288/" target="_blank">LinkedIn</a></p>
-    </footer>
+    <div class="featured-project">
+      <a href="windowsserver.html" class="featured-project-tile">
+        <h2>Windows Server 2019 on VirtualBox</h2>
+        <p>View This Project Here</p>
+      </a>
+    </div>
+  </section>
 
-    <script src="script.js"></script>
+  <footer>
+    <p>Connect with me on <a href="https://www.linkedin.com/in/phillip-tilleman-855097288/" target="_blank">LinkedIn</a></p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

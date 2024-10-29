@@ -1,4 +1,3 @@
-<!-- project1.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,75 +7,160 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="title"><a href="index.html">Phillip's IT Projects</a></div>
-        <nav>
-            <ul>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <div class="title"><a href="index.html">Phillip's IT Projects</a></div>
+    <nav>
+      <ul>
+        <li class="dropdown"> <a href="#" class="dropdown-btn">Projects</a>
+          <ul class="dropdown-content">
+            <li><a href="windowsserver.html">Windows Server 2019 on VirtualBox</a></li>
+            <li><a href="project2.html">Project 2</a></li>
+            <li><a href="project3.html">Project 3</a></li>
+          </ul>
+        </li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section class="content">
-        <h1>Windows Server 2019 on VirtualBox</h1>
-        <p>Detailed Documentation About This Project Below</p>
-    </section>
+  <section class="content">
+    <h1>Windows Server 2019 on VirtualBox</h1>
+    <p>Detailed Documentation About This Project Below</p>
+  </section>
 
-	<div>
-	    <p class="paragraph">The first step is to download the Windows Server 2019 .ISO from Microsoft's evaluation website along with VirtualBox from Oracle's website.</p>
-	</div>
-    
-        <div>
-            <img src="ISOdownload.png" alt="Downloading the Windows Server 2019 ISO File"  class="picture-properties">
-        </div>
+<section class="content">
+    <h1>Downloads and VirtualBox Setup</h1>
+  </section>
 
-	<div>
-	     <p class="paragraph">In this step I created a new virtual machine in VirtualBox with the "New" button. I then names the virtual machine Windows Server 2019 to tell what it is. The type of virtual machine is windows and the version is Windows 2019 (64-bit) respectively.</p>
-	</div>	
+  <div class="project-boxes">
+      <img src="ISOdownload.png" alt="Downloading the Windows Server 2019 ISO File" class="picture-properties">
+      <p class="paragraph">The first step is to download the Windows Server 2019 .ISO from Microsoft's evaluation website along with VirtualBox from Oracle's website.</p>
+  </div>
 
-        <div>
-            <img src="serversetup1.png" alt="Server Setup 1"  class="picture-properties"> 
-	</div>
 
-        <div>
-            <img src="serversetup2.png" alt="Server Setup 1"  class="picture-properties">
-        </div>
+  <div class="project-boxes">
+      <img src="serversetup1.png" alt="Creating a Virtual Machine in VirtualBox" class="picture-properties">
+      <p class="paragraph">In this step, I created a new virtual machine in VirtualBox with the "New" button. I then named the VM "Windows Server 2019" to specify what it is. The type of VM is Windows, and the version is Windows 2019 (64-bit).</p>
+  </div>
 
-        <div>
-            <img src="serversetup3.png" alt="Server Setup 1"  class="picture-properties">
-        </div>
 
-        <div>
-            <img src="serversetup4.png" alt="Server Setup 1"  class="picture-properties">
-        </div>
+  <div class="project-boxes">
+      <img src="serversetup2.png" alt="Server Setup Step 2" class="picture-properties">
+      <p class="paragraph">Description for server setup step 2...</p>
+  </div>
 
-        <div>
-            <img src="serversetup5.png" alt="Server Setup 1"  class="picture-properties">
-        </div>
+  <div class="project-boxes">
+      <img src="serversetup3.png" alt="Server Setup Step 3" class="picture-properties">
+      <p class="paragraph">Description for server setup step 3...</p>
+  </div>
 
-        <div>
-            <img src="serversetup6.png" alt="Server Setup 1"  class="picture-properties">
-        </div>
+  <div class="project-boxes">
+      <img src="virtualboxsetup.png" alt="network setup" class="picture-properties">
+      <p class="paragraph">After creating the VM I will change the network adapter type from NAT to Bridged Adapter. This gives the VM it's own IP address on the host computer's network instead of using an internal network inside of Virtual Box. This will help when connecting other VMs to the Domain.</p>
+  </div>
 
-        <div>
-            <img src="serversetup7.png" alt="Server Setup 1"  class="picture-properties">
-        </div>
+  <div class="project-boxes">
+      <img src="serversetup4.png" alt="Server Setup Step 4" class="picture-properties">
+      <p class="paragraph">Description for server setup step 4...</p>
+  </div>
 
-        <div>
-            <img src="serversetup8.png" alt="Server Setup 1"  class="picture-properties">
-        </div>
+<section class="content">
+    <h1>Windows Server 2019 Installation and Setup</h1>
+  </section>
 
-        <div>
-            <img src="serversetup9.png" alt="Server Setup 1"  class="picture-properties">
-        </div>
-    
+  <div class="project-boxes">
+      <img src="serversetup5.png" alt="Server Setup Step 5" class="picture-properties">
+      <p class="paragraph">Description for server setup step 5...</p>
+  </div>
 
-    <footer>
-        <p>Connect with me on <a href="https://www.linkedin.com/in/phillip-tilleman-855097288/" target="_blank">LinkedIn</a></p>
-    </footer>
+  <div class="project-boxes">
+      <img src="serversetup6.png" alt="Server Setup Step 6" class="picture-properties">
+      <p class="paragraph">Description for server setup step 6...</p>
+  </div>
 
-    <script src="script.js"></script>
+  <div class="project-boxes">
+      <img src="serversetup7.png" alt="Server Setup Step 7" class="picture-properties">
+      <p class="paragraph">Description for server setup step 7...</p>
+  </div>
+
+  <div class="project-boxes">
+      <img src="serversetup8.png" alt="Server Setup Step 8" class="picture-properties">
+      <p class="paragraph">Description for server setup step 8...</p>
+  </div>
+
+  <div class="project-boxes">
+      <img src="serversetup9.png" alt="Server Setup Step 9" class="picture-properties">
+      <p class="paragraph">Description for server setup step 9...</p>
+  </div>
+
+<section class="content">
+    <h1>Active Directory Domain Services Setup</h1>
+  </section>
+
+  <div class="project-boxes">
+      <img src="adsetup1.png" alt="adsetup1" class="picture-properties">
+      <p class="paragraph">Description for server setup step 9...</p>
+  </div>
+
+  <div class="project-boxes">
+      <img src="adsetup2.png" alt="adsetup2" class="picture-properties">
+      <p class="paragraph">Description for server setup step 9...</p>
+  </div>
+
+  <div class="project-boxes">
+      <img src="adsetup3.png" alt="adsetup3" class="picture-properties">
+      <p class="paragraph">Description for server setup step 9...</p>
+  </div>
+
+  <div class="project-boxes">
+      <img src="adsetup4.png" alt="adsetup4" class="picture-properties">
+      <p class="paragraph">Description for server setup step 9...</p>
+  </div>
+
+  <div class="project-boxes">
+      <img src="adsetup5.png" alt="adsetup5" class="picture-properties">
+      <p class="paragraph">Description for server setup step 9...</p>
+  </div>
+
+  <div class="project-boxes">
+      <img src="adsetup6.png" alt="adsetup6" class="picture-properties">
+      <p class="paragraph">Description for server setup step 9...</p>
+  </div>
+
+  <div class="project-boxes">
+      <img src="adsetup7.png" alt="adsetup7" class="picture-properties">
+      <p class="paragraph">Description for server setup step 9...</p>
+  </div>
+
+  <div class="project-boxes">
+      <img src="domainsetup1.png" alt="adsetup7" class="picture-properties">
+      <p class="paragraph">Description for server setup step 9...</p>
+  </div>
+
+  <div class="project-boxes">
+      <img src="domainsetup2.png" alt="adsetup7" class="picture-properties">
+      <p class="paragraph">Description for server setup step 9...</p>
+  </div>
+
+  <div class="project-boxes">
+      <img src="domainsetup3.png" alt="adsetup7" class="picture-properties">
+      <p class="paragraph">Description for server setup step 9...</p>
+  </div>
+
+  <div class="project-boxes">
+      <img src="domainsetup4.png" alt="adsetup7" class="picture-properties">
+      <p class="paragraph">Description for server setup step 9...</p>
+  </div>
+
+
+  <div class="bottom-padding">
+  </div>
+  
+  <footer>
+      <p>Connect with me on <a href="https://www.linkedin.com/in/phillip-tilleman-855097288/" target="_blank">LinkedIn</a></p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
